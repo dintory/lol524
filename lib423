@@ -1,4 +1,3 @@
--- (WARNING: This Repository is Licensed! You are not permitted to use/copy this User Interface library)dd
 local library = { }
 
 -- Services
@@ -18,7 +17,7 @@ library.theme = {
     fontsize = 15,
     font = Enum.Font.Code,
     background = "rbxassetid://2151741365",
-    backgroundcolor = Color3.fromRGB(60, 60, 60),
+    backgroundcolor = Color3.fromRGB(255, 192, 203),
     tabstextcolor = Color3.fromRGB(230, 230, 230),
     bordercolor = Color3.fromRGB(60, 60, 60),
     accentcolor = Color3.fromRGB(136, 8, 8),
