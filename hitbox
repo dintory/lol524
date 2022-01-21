@@ -1,10 +1,3 @@
-local sex
-local xsf = w:CreateFolder("Toggle gui")
-
-xsf:Bind("toggle gui",Enum.KeyCode.RightCtrl, function()
-		        sex = not sex
-		        window.main.Visible = sex
-end)
 
 --// Exploit Check \\--
 if #{hookmetamethod, checkcaller} ~= 2 then
@@ -29,6 +22,15 @@ local Player = Players.LocalPlayer
 --// UI Library \\--
 local Library = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/dintory/lol524/main/dsadsadsa'))()
 local Window = Library:CreateWindow("")
+local sex = true
+
+local xsf = w:CreateFolder("Toggle gui")
+
+xsf:Bind("toggle gui",Enum.KeyCode.RightCtrl, function()
+		        sex = not sex
+		        window.main.Visible = sex
+end)
+
 Window:AddSlider({
     text = "Size",
     min = 2,
